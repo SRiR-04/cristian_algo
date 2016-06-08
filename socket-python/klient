@@ -1,0 +1,45 @@
+import socket
+from datetime import datetime, time
+
+s=socket.socket(socket.AF_INET, socket.SOCK_STREAM) # tworzenie socketa
+port=8887
+
+# pozyskiwanie czasu
+time1=datetime.now()
+
+s.connect(("192.168.1.30", port)) # polaczenie address xxx.xxx.x.x and port xxxx
+tm=s.recv(1024) # this will read atmost 1024 bytes
+
+# get the current date-time 
+time2=datetime.now()
+
+serverTime=datetime.strptime(tm, "%Y-%m-%d %H:%M:%S.%f")
+
+# terminate client socket
+s.close()
+
+print("Czas otrzymany od serwera: \n")
+print "Godzina: %d h" % serverTime.hour
+print "Minuty: %d min" % serverTime.minute
+print "Sekundy: %d s" % serverTime.second
+print "Mikrosekundy: %d us\n" %serverTime.microsecond
+
+# Algorytm christiana 
+t1=time1.second*1000000+time1.microsecond
+t2=time2.second*1000000+time2.microsecond
+diff=(t2-t1)/2
+
+# Obliczanie wartoœci poprzed dodanie czasu do czasu od serwera
+newMicro = serverTime.microsecond+diff
+
+#ping
+ping=(newMicro-serverTime.microsecond)/1000000
+
+# wartoœci algorytmu
+print("Aktualny czas (algorytm Christiana) : \n")
+print "Godzina: %d h " % serverTime.hour
+print "Minuty: %d min " % serverTime.minute
+print "Sekundy: %d s " % serverTime.second
+print "Mikrosekundy: %d us\n" % newMicro
+
+print "Ping: %d ms " %ping

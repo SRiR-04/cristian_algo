@@ -1,0 +1,23 @@
+import socket
+from datetime import datetime, time
+from time import sleep
+
+serversocket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+host=socket.gethostname()
+port=8887
+serversocket.bind(("192.168.1.30",port)) # server script must be run on a system with IP xxx.xxx.x.x
+serversocket.listen(5)
+print "Dzia³a "
+while True:
+        clientsocket,addr=serversocket.accept() # adres klienta
+        print("Po³¹czono: %s" % str(addr))
+        
+        # pobieranie czasu
+        currentTime=datetime.now()
+        
+        sleep(2)
+        
+        # wysy³anie
+        clientsocket.send(str(currentTime))
+
+        clientsocket.close()
