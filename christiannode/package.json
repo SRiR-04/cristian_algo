@@ -1,0 +1,9 @@
+{
+  "name": "cristian_http",
+  "dependencies": {
+    "express": "*",
+    "open": "*",
+    "jade": "*",
+    "http": "*"
+  }
+}

@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+head
+    meta(charset="utf-8")
+    title= 'Algorytm Cristiana - Http Client'
+
+body
+    div(class="reveal")
+    h1= 'Synchronizacja czasu'
+    button(onclick="syncTime()")= 'Synchronizuj'
+    h1='roznica'
+    p(id="diff")
+    h1='czas otrzymany'
+    p(id="czas")
+    h1='czas przeliczony'
+    p(id="wynik")
+    script.
+        function syncTime() {
+            var xhr = new XMLHttpRequest();
+
+            var t1 = new Date().getTime(); // czas wyslania
+
+            xhr.onreadystatechange = function () {
+
+                var t2 = new Date().getTime(); // czas odebrania
+
+                if (xhr.readyState == 4 && xhr.status == 200) {
+
+                    var difference = (t2 - t1) / 2; // roznica
+
+                    document.getElementById("diff").innerHTML = difference + "";
+                    var serverMilliseconds = parseInt(xhr.responseText);
+
+                    var serverDate = new Date(serverMilliseconds);
+                    document.getElementById("czas").innerHTML = serverDate.getDate() + "." + serverDate.getMonth() + "." + serverDate.getFullYear() + " " + serverDate.getHours() + ":" + serverDate.getMinutes() + ":" + serverDate.getSeconds() + ":" + serverDate.getMilliseconds();
+
+                    var newTime = new Date(serverMilliseconds + difference);
+                    document.getElementById("wynik").innerHTML = newTime.getDate() + "." + newTime.getMonth() + "." + newTime.getFullYear() + " " + newTime.getHours() + ":" + newTime.getMinutes() + ":" + newTime.getSeconds() + ":" + newTime.getMilliseconds();
+
+                }
+            };
+            xhr.open("GET", "/time", true);
+            xhr.send();
+        }
