@@ -1,0 +1,12 @@
+C:\Users\Dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\bin\Release\CristianAlgoClient.exe.config
+C:\Users\Dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\bin\Release\CristianAlgoClient.exe
+C:\Users\Dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\bin\Release\CristianAlgoClient.pdb
+C:\Users\Dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\obj\Release\CristianAlgoClient.exe
+C:\Users\Dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\obj\Release\CristianAlgoClient.pdb
+C:\Users\Dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\obj\Release\CristianAlgoClient.csprojResolveAssemblyReference.cache
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoClient\CristianAlgoClient\bin\Release\CristianAlgoClient.exe.config
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoClient\CristianAlgoClient\obj\Release\CristianAlgoClient.exe
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoClient\CristianAlgoClient\obj\Release\CristianAlgoClient.pdb
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoClient\CristianAlgoClient\bin\Release\CristianAlgoClient.exe
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoClient\CristianAlgoClient\bin\Release\CristianAlgoClient.pdb
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoClient\CristianAlgoClient\obj\Release\CristianAlgoClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoServer\CristianAlgoServer\bin\Debug\CristianAlgoServer.exe.config
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoServer\CristianAlgoServer\bin\Debug\CristianAlgoServer.exe
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoServer\CristianAlgoServer\bin\Debug\CristianAlgoServer.pdb
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoServer\CristianAlgoServer\obj\Debug\CristianAlgoServer.csprojResolveAssemblyReference.cache
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoServer\CristianAlgoServer\obj\Debug\CristianAlgoServer.exe
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoServer\CristianAlgoServer\obj\Debug\CristianAlgoServer.pdb
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoServer\CristianAlgoServer\bin\Debug\CristianAlgoServer.exe.config
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoServer\CristianAlgoServer\obj\Debug\CristianAlgoServer.exe
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoServer\CristianAlgoServer\obj\Debug\CristianAlgoServer.pdb
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoServer\CristianAlgoServer\bin\Debug\CristianAlgoServer.exe
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoServer\CristianAlgoServer\bin\Debug\CristianAlgoServer.pdb
+C:\Users\Dorota\Documents\Visual Studio 2013\Projects\net-remoting-tcp\CristianAlgoServer\CristianAlgoServer\obj\Debug\CristianAlgoServer.csprojResolveAssemblyReference.cache

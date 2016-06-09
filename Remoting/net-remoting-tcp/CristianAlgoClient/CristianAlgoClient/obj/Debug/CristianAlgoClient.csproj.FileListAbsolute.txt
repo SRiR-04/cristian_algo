@@ -1,0 +1,6 @@
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\bin\Debug\CristianAlgoClient.exe.config
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\bin\Debug\CristianAlgoClient.exe
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\bin\Debug\CristianAlgoClient.pdb
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\obj\Debug\CristianAlgoClient.exe
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\obj\Debug\CristianAlgoClient.pdb
+c:\users\dorota\documents\visual studio 2013\Projects\CristianAlgoClient\CristianAlgoClient\obj\Debug\CristianAlgoClient.csprojResolveAssemblyReference.cache
